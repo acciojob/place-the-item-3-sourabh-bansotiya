@@ -1,2 +1,32 @@
 
 /* Your CSS Code here. */
+
+/* Add these styles to your CSS file */
+
+.row1,
+.row2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row2 {
+  flex-wrap: wrap;
+}
+
+#b1,
+#b2,
+#b3,
+#b4,
+#b5,
+#b6,
+#b7,
+#b8,
+#b9,
+#b10 {
+  background-color: red;
+  border: 1px solid;
+  width: 150px;
+  height: 150px;
+  font-size: 50px;
+  margin-bottom: 10px; /* Adjust the margin based on your preference */
+}
